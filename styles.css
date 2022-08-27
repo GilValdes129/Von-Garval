@@ -1,0 +1,654 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #222222;
+    color: #fcfffc;
+}
+
+.HeaderMain{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #df2935;
+}
+.HeaderMainIzq {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    height: fit-content;
+    width: 50%;
+}
+
+.HeaderMainIzq-img {
+    padding-left: 15px;
+    padding-top: 10px;
+    width: fit-content;
+    margin-left: 35px;
+}
+
+.HeaderMainIzq-img img {
+    height: 100px;
+    width: 90px;
+}
+
+.HeaderMainIzq-title {
+    padding-left: 30px;
+}
+
+.HeaderMainIzq-title h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+}
+
+.HeaderMainDer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    text-align: center;
+    height: 113.5px;
+    width: 50%;
+    margin-top: 12px;
+}
+
+.Socios {
+    padding-top: 10px;
+    padding-right: 25px;
+}
+
+.Socios img {
+    height: 50px;
+    width: 40px;
+}
+
+.Socios h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*                MENU
+/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.Menu {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    background-color: #0c8346;
+    border-bottom: 3px solid #df2935;
+}
+
+.Menu ul{
+    list-style: none; 
+    background-color: #0c8346;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Menu-item {
+    background-color: #0c8346;
+}
+
+.Menu-item a {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    background-color: #0c8346;
+}
+
+/* PREGUNTAR COMO AGREGAR PROFUNDIDAD*/
+.Menu-item a:hover {
+    color: #f3b700;
+    transition: all .3s;
+    background-color: #df2935;
+    border-radius: 10px;
+    box-shadow: 5px 6px 8px #063a1f;
+}
+
+/*                        MAIN-INDEX
+==============================================================================================*/
+
+
+.MainContainer {
+    background-color:  #0c8346;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    justify-content: center;
+    width: 80%;
+    height: 810px;
+    margin-left: 10%;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border: 5px solid #fcfffc;
+    height: fit-content;
+}
+
+.MainContainer-img {
+    background-color:  #0c8346;
+    display: flex;
+    justify-content: center;
+    height: 525px;
+    width: 60%;
+    margin-bottom: 25px;
+    margin-left: 15%;
+    padding: 0 80px;
+    padding-top: 25px;
+    background-color: #063a1f;
+    box-shadow: 5px 6px 8px #063a1f;
+    border-radius: 12px;
+    
+}
+
+.MainContainer-img img {
+    max-width: 100%;
+    height: 500px;
+}
+
+.MainContainer-txt {
+    width: 69%;
+    height: fit-content;
+    background-color: #df2935;
+    padding-bottom: 10px;
+    border-radius: 12px;
+    box-shadow: 5px 6px 8px #063a1f;
+    margin-left: 15%;
+    
+}
+
+.MainContainer-txt h2{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    background-color: #df2935;
+    color: #f3b700;
+}
+
+.MainContainer-txt p {
+    font-size: 16px;
+    margin-left: 15px;
+    background-color: #df2929;
+}
+
+
+/*                                MAIN MACHOS-HEMBRAS
+============================================================================================================*/
+
+.MainCatalogo {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.ContenedorPadre {
+    background-color: #0c8346;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: fit-content;
+    gap: 10px;
+    
+}
+
+.ContenedorHijo {
+    width: fit-content;
+}
+
+.ContenedorHijo img {
+    width: 400px;
+    height: 320px;
+}
+
+.ContenedorHijo-txt {
+    text-align: center;
+    background-color: #222222;
+    height: fit-content;
+}
+
+.ContenedorHijo-txt a {
+    display: block;
+    text-decoration: none;
+    background-color: #222222;
+    height: 18px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+/* PREGUNTAR SI ES CONVENIENTE AGREGAR UN LINK A LA IMAGEN TMB
+
+Y EN DADO CASO QUE SI AÑADIR PSEUDOCLASES*/
+
+.ContenedorHijo-txt a:hover {
+    background-color: #df2929;
+    color: #f3b700;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all .3s;
+}
+
+/*                        MAIN-CAMADAS
+==============================================================================================*/
+
+.MainCamada {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.ContenedorPadreCamada {
+    padding: 10px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #0c8346;
+}
+
+.ContenedorHijoCamada-Padres {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px
+}
+
+.ContenedorHijoCamada {
+    margin-bottom: 20px;
+}
+
+.ContenedorHijoCamada a {
+    display: block;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #fcfffc;
+    color: #222;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.ContenedorHijoCamada-Padre img {
+    width: 400px;
+    height: 320px;
+}
+
+.ContenedorHijoCamada-Madre img {
+    width: 400px;
+    height: 320px;
+}
+
+.ContenedorHijoCamada-Padre a {
+    font-weight: 100;
+    text-align: center;
+    background-color: #063a1f;
+    color: #fcfffc;
+}
+
+.ContenedorHijoCamada-Madre a {
+    font-weight: 100;
+    text-align: center;
+    background-color: #df2929;
+    color: #fcfffc;
+}
+
+.ContenedorHijoCamada a:hover {
+    font-size: 25px;
+    font-weight: 800;
+    transition: all .3s;
+}
+
+.ContenedorHijoCamada-Padre a:hover {
+    font-size: 25px;
+    font-weight: 800;
+    transition: all .3s;
+}
+
+.ContenedorHijoCamada-Madre a:hover {
+    font-size: 25px;
+    font-weight: 800;
+    transition: all .3s; 
+}
+
+/* PREGUNTAR SI ES CONVENIENTE AGREGAR UN LINK A LA IMAGEN TMB
+
+Y EN DADO CASO QUE SI AÑADIR PSEUDOCLASES*/
+
+/*                            Main-Contacto
+==============================================================================================================*/
+
+.logo {
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.ContainerContacto {
+    display: flex;
+    justify-content: center;
+}
+
+.Contact-border {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 3px solid #E8F9FD;
+}
+
+.Contact-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #0c8346;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.Pregunta {
+    margin-bottom: 5%;
+    background-color: #0c8346;
+}
+
+.Pregunta label {
+    display: block;
+    background-color: #0c8346;
+    margin-bottom: 2%;
+}
+
+.Pregunta input, textarea {
+    background-color: #0c8346;
+    border: none;
+    border-bottom: 3px groove #fcfffc;
+}
+
+.boton {
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+}
+
+.boton button {
+    padding: 5px;
+    background-color: #0c8346;
+    margin-top: 5px;
+}
+
+.boton button:hover {
+    font-size: 23px;
+    font-weight: 700;
+    padding: 5px;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.boton button:active {
+    color: red;
+}
+
+.Contact-info {
+    padding-top: 15px;
+    padding-left: 15px;
+    background-color: #df2929;
+}
+
+.Contact-info h3 {
+    font-size: 20px;
+    background-color: #df2929;
+    color: #f3b700;
+    padding-bottom: 10px;
+}
+
+.Contact-info ul {
+    list-style: none;
+    background-color: #df2929;
+    color: #f3b700;
+    padding-bottom: 5px;
+}
+
+.Contact-info ul li {
+    background-color: #df2929;
+    color: #f3b700;
+    padding: 3px 0;
+}
+
+.Contact-info ul li i {
+    background-color: #df2929;
+    color: #f3b700;
+    padding-right: 2px;
+}
+
+.Contact-info p {
+    width: 350px;
+    background-color: #df2929;
+    color: #f3b700;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+/*                              PRESENTACION DEL PERRO
+====================================================================================================*/
+
+.DatosPerro {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 1% 0;
+    text-align: center;
+}
+
+.InformacionDelPerro {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.InformacionDelPerro-img {
+    display: flex;
+    justify-content: center;
+}
+
+.InformacionDelPerro-img img {
+    width: 500px;
+    height: auto;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+.Pedrigree {
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+
+.Pedrigree div {
+    padding: 20px;
+}
+
+.Pedrigree table {
+    width: 400px;
+    height: 300px;
+}
+
+.table--backgroundgreen td {
+    background-color: #0c8346;
+    
+}
+
+/*    REVISAR SI CONVIENE HACER LOS COLORES DE LA BANDERA EN LA TABLA*/
+
+.ListasTitulos {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.ListaTitulos-Trabajo {
+    text-align: center;
+    border: 2px solid #fcfffc;
+}
+
+.ListaTitulos-Trabajo h3 {
+    background-color: #0c8346;
+    padding: 5px 3px;
+    border-bottom: 2px solid #fcfffc;
+}
+
+.ListaTitulos-Trabajo li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+.ListaTitulos-Trabajo--rojo {
+    background-color: #df2935;
+    border-bottom: 2px solid #fcfffc;
+}
+
+.ListaTitulos-Trabajo--verde {
+    background-color: #0c8346;
+    border-bottom: 2px solid #fcfffc;
+}
+
+.ListaTitulos-Belleza {
+    text-align: center;
+    border: 2px solid #fcfffc;
+}
+
+.ListaTitulos-Belleza h3 {
+    background-color: #0c8346;
+    padding: 5px 3px;
+    border-bottom: 2px solid #fcfffc;
+}
+
+.ListaTitulos-Belleza li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+.ListaTitulos-Belleza--rojo {
+    background-color: #df2935;
+    border-bottom: 2px solid #fcfffc;
+}
+
+.ListaTitulos-Belleza--verde {
+    background-color: #0c8346;
+    border-bottom: 2px solid #fcfffc;
+}
+
+/*                             CAMADA ESPECIFICO
+====================================================================================================*/
+
+.InfoDeCamada {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.InfoDeCamada-Padres {
+    background-color: #0c8346;
+    padding: 55px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: fit-content;
+    height: 859px;
+    gap: 10px;
+}
+
+.InfoDeCamada-Padres-Padre {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    text-align: center;
+    height: 859px;
+}
+
+.InfoDeCamada-Padres-Madre {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    text-decoration: none;
+    text-align: center;
+    height: 859px;
+}
+
+.InfoDeCamada-Padres-Padre img {
+    width: 1000px;
+    height: 800px;
+}
+
+.InfoDeCamada-Padres-Madre img {
+    width: 1000px;
+    height: 800px;
+}
+
+.InfoDeCamada-Padres-Padre a {
+    height: fit-content;
+    text-decoration: none;
+    font-size: 50px;
+    background-color: #df2929;
+}
+
+.InfoDeCamada-Padres-Madre a {
+    height: fit-content;
+    text-decoration: none;
+    font-size: 50px;
+    background-color: #df2929;
+}
+
+.CamadaLetra {
+    display: block;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #fcfffc;
+    color: #222;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.CamadaLetra:hover {
+    font-size: 25px;
+    transition: all .3s;
+}
+
+.CamadaFecha {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/*                              FOOTER
+====================================================================================================*/
+
+
+.footerContainer {
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    bottom: 0;
+
+}
+
+.footerContainer h3 {
+    background-color: #df2935;
+    padding-bottom: 1%;
+}
+
+.footermail {
+    background-color: #df2935;
+    padding-left: 6%;
+}
+
+.footerContainer p {
+    display: block;
+    background-color: #df2935;
+}
+
+.footerlink {
+    background-color: #df2935;
+}
+
+.footerlink a, i {
+    background-color: #df2935;
+}
