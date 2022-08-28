@@ -184,16 +184,17 @@
 
 .ContenedorPadre {
     background-color: #0c8346;
-    padding: 15px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: fit-content;
-    gap: 10px;
+    padding-bottom: 25px;
+    justify-content: center;
+    padding-top: 25px;
+    margin-top: 15px;
     
 }
 
 .ContenedorHijo {
     width: fit-content;
+    margin-bottom: 25px;
+    background-color: #0c8346;
 }
 
 .ContenedorHijo img {
