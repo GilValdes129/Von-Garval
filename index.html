@@ -9,12 +9,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <!--Bootstrap-->
+    -<link rel="stylesheet" href="/css/bootstrap-grid.min.css">
+    <!--Estilos Generales-->
     <link rel="stylesheet" href="/styles.css">
+    <!--Detalles Adaptables-->
+    <link rel="stylesheet" href="/DiseñoAdaptable/Index.css">
 </head>
 <body>
     <header>
-        <div class="HeaderMain">
-            <div class="HeaderMainIzq">
+        <div class="HeaderMain container row">
+            <div class="HeaderMainIzq col-xs-12 col-md-8 col-lg-8">
                 <div class="HeaderMainIzq-img">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2Gsr9mOHh6tk0aTCJHJMfV-5hsjfuEYXChKEXw4jnSfVtil_q5OtUfIQUPcegkBTkMao&usqp=CAU" alt="LogoVonGarval">
                 </div>
@@ -22,7 +27,7 @@
                     <h1>DOBERMANN VON GARVAL</h1>
                 </div>
             </div>
-            <div class="HeaderMainDer">
+            <div class="HeaderMainDer col-xs-12 col-md-4 col-lg-4">
                 <div class="Socios">
                     <img src="http://fcm.mx/wp-content/uploads/2020/03/logo-FCM.jpg" alt="LogoFCM">
                     <h2>FCM</h2>
@@ -38,20 +43,20 @@
             </div>
         </div>
         <nav class="Menu">
-            <ul>
-                <li class="Menu-item"><a href="/index.html" rel="noopener noreferrer">Inicio</a></li>
-                <li class="Menu-item">
+            <ul class="container row">
+                <li class="Menu-item col-xs-12  col-md-2"><a href="/index.html" rel="noopener noreferrer">Inicio</a></li>
+                <li class="Menu-item col-xs-12 col-md-2">
                     <a href="/machos.html" rel="noopener noreferrer">Machos</a>
                 </li>
-                <li class="Menu-item"><a href="/hembras.html" rel="noopener noreferrer">Hembras</a></li>
-                <li class="Menu-item"><a href="/camadas.html" rel="noopener noreferrer">Camadas</a></li>
-                <li class="Menu-item"><a href="/contacto.html" rel="noopener noreferrer">Contacto</a></li>
+                <li class="Menu-item col-xs-12 col-md-2"><a href="/hembras.html" rel="noopener noreferrer">Hembras</a></li>
+                <li class="Menu-item col-xs-12 col-md-2"><a href="/camadas.html" rel="noopener noreferrer">Camadas</a></li>
+                <li class="Menu-item col-xs-12 col-md-2"><a href="/contacto.html" rel="noopener noreferrer">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main class="MainIndex">
-        <div class="MainContainer">
-            <div class="MainContainer-img">
+        <div class="MainContainer container row">
+            <div class="MainContainer-img col-md-12">
                 <img src="https://static.wixstatic.com/media/b83a1e_22fd222a6414448a894c5cded65ad19d~mv2.jpg/v1/fill/w_407,h_252,al_c,q_80,usm_0.66_1.00_0.01/b83a1e_22fd222a6414448a894c5cded65ad19d~mv2.jpg" alt="imageninicio">
             </div>
             
@@ -73,5 +78,7 @@
         </div>
 
     </footer>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
