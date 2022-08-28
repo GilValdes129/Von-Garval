@@ -1,0 +1,147 @@
+/*                                                          Telefonos     
+===================================================================================================================================================================
+===================================================================================================================================================================
+================================================================Machos-Hembras=============================================================================================
+==================================================================================================================================================================*/
+
+/*                               MAX-WIDTH 412px                                                                  
+======================================================================================================================================================================*/
+
+@media screen and (max-width: 450px){
+
+    .HeaderMainIzq-title h1{
+        font-family: 'Roboto', sans-serif;
+        font-size: 35px;
+    }
+
+    .HeaderMainDer {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        text-align: center;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    /*                       NAV                                     */
+
+    .Menu-item a {
+        text-align: center;
+    }
+
+    .Menu-item a:target {
+        color: #f3b700;
+        transition: all .3s;
+        background-color: #df2935;
+        border-radius: 10px;
+        box-shadow: 5px 6px 8px #063a1f;
+    }
+
+    /*                        Hembras-Machos Catalogo                    */
+
+    .ContenedorPadre {
+        width: 90%;
+        border: 4px solid #fff;
+        margin-bottom: 20px;
+    }
+
+    .ContenedorHijo img {
+        width: 346.8px;
+        height: auto;
+    }
+
+    .ContenedorHijo-txt a {
+        padding: 4% 0;
+    }
+
+    .ContenedorHijo img {
+        width: 346.8px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .ContenedorHijo img {
+        width: 313.5px;
+        height: 251px;
+    }
+
+      .HeaderMainIzq-title h1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+    }
+}
+
+
+/*                                                               Max Width: 915px                                
+===================================================================================================================================================================*/
+
+
+/*                 A partir de los telefonos horizontales se empiezan a ver 2 perros por linea                     */
+@media screen and (min-width: 700px) {
+    .ContenedorPadre {
+        border: 4px solid #fff;
+        /*display: grid;
+        grid-template-columns: repeat(2, 1fr);*/
+    }
+
+    .ContenedorHijo img {
+        width: 300px;
+        height: 240px;
+    }
+}
+
+@media screen and (min-width: 760px){
+    .HeaderMainIzq-title h1 {
+        font-size: 50px;
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+
+    .HeaderMainDer {
+        align-items: center;
+    }
+    
+    .ContenedorHijo img {
+        width: 350px;
+        height: 280px;
+    }
+
+    .ContenedorPadre {
+        border: 4px solid #fff;
+    }
+}
+
+/*                                                          Tablets     
+===================================================================================================================================================================
+===================================================================================================================================================================*/
+
+
+
+
+@media screen and (min-width: 1000px) {
+
+    .HeaderMainIzq-title h1 {
+        font-size: 65px;
+    }
+
+    .ContenedorHijo img {
+        width: 450px;
+        height: 360px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .HeaderMainIzq-title h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .ContenedorHijo img {
+        width: 500px;
+        height: 400px;
+    }
+}

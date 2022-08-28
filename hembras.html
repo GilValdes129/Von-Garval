@@ -9,13 +9,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
-    <!--Estilos CSS-->
     <link rel="stylesheet" href="/styles.css">
+        <!--Bootstrap-->
+        -<link rel="stylesheet" href="/css/bootstrap-grid.min.css">
+        <!--Estilos Generales-->
+        <link rel="stylesheet" href="/styles.css">
+        <!--Detalles Adaptables-->
+        <link rel="stylesheet" href="/DisenoAdaptable/hembras.css">
 </head>
 <body>
     <header>
-        <div class="HeaderMain">
-            <div class="HeaderMainIzq">
+        <div class="HeaderMain container row">
+            <div class="HeaderMainIzq col-xs-12 col-md-8 col-lg-8">
                 <div class="HeaderMainIzq-img">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2Gsr9mOHh6tk0aTCJHJMfV-5hsjfuEYXChKEXw4jnSfVtil_q5OtUfIQUPcegkBTkMao&usqp=CAU" alt="LogoVonGarval">
                 </div>
@@ -23,7 +28,7 @@
                     <h1>DOBERMANN VON GARVAL</h1>
                 </div>
             </div>
-            <div class="HeaderMainDer">
+            <div class="HeaderMainDer col-xs-12 col-md-4 col-lg-4">
                 <div class="Socios">
                     <img src="http://fcm.mx/wp-content/uploads/2020/03/logo-FCM.jpg" alt="LogoFCM">
                     <h2>FCM</h2>
@@ -39,78 +44,66 @@
             </div>
         </div>
         <nav class="Menu">
-            <ul>
-                <li class="Menu-item"><a href="/index.html" rel="noopener noreferrer">Inicio</a></li>
-                <li class="Menu-item">
+            <ul class="container row">
+                <li class="Menu-item col-xs-12  col-md-2"><a href="/index.html" rel="noopener noreferrer">Inicio</a></li>
+                <li class="Menu-item col-xs-12 col-md-2">
                     <a href="/machos.html" rel="noopener noreferrer">Machos</a>
                 </li>
-                <li class="Menu-item"><a href="/hembras.html" rel="noopener noreferrer">Hembras</a></li>
-                <li class="Menu-item"><a href="/camadas.html" rel="noopener noreferrer">Camadas</a></li>
-                <li class="Menu-item"><a href="/contacto.html" rel="noopener noreferrer">Contacto</a></li>
+                <li class="Menu-item col-xs-12 col-md-2"><a href="/hembras.html" rel="noopener noreferrer">Hembras</a></li>
+                <li class="Menu-item col-xs-12 col-md-2"><a href="/camadas.html" rel="noopener noreferrer">Camadas</a></li>
+                <li class="Menu-item col-xs-12 col-md-2"><a href="/contacto.html" rel="noopener noreferrer">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main class="MainCatalogo">
         <!--Imagen y nombre de cada perro dentro de una caja-->
-        <div class="ContenedorPadre">
-            <div class="ContenedorHijo">
+        <div class="ContenedorPadre container row">
+            <div class="ContenedorHijo col-xs-12 col-sm-6 col-md-6">
                 <img src="https://static.wixstatic.com/media/0ba30f_1201d30d1c7148f69345cc5a66133999~mv2.jpeg/v1/fill/w_403,h_353,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0ba30f_1201d30d1c7148f69345cc5a66133999~mv2.jpeg" alt="Veronika di Prisconte">
                 <div class="ContenedorHijo-txt">
                     <a href="/CatalogoHembras/VeronikaDiPrisconte.html">Veronika di Prisconte</a>
                 </div>
             </div>
-            <div class="ContenedorHijo">
+            <div class="ContenedorHijo col-xs-12 col-sm-6 col-md-6 col-lg-6">
                 <img src="https://static.wixstatic.com/media/b83a1e_1342f1aa457848748479c4801c41ff4b~mv2.jpg/v1/fill/w_403,h_353,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/b83a1e_1342f1aa457848748479c4801c41ff4b~mv2.jpg" alt="Sue Ellen von Garval">
                 <div class="ContenedorHijo-txt">
                     <a href="">Sue Ellen von Garval</a>
                 </div>
             </div>
-            <div class="ContenedorHijo">
+            <div class="ContenedorHijo col-xs-12 col-sm-6 col-md-6">
                 <img src="https://static.wixstatic.com/media/b83a1e_63e25ae2b3d042609aecfda0ecfa157c~mv2.jpg/v1/fill/w_403,h_353,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/b83a1e_63e25ae2b3d042609aecfda0ecfa157c~mv2.jpg" alt="Minerva di Perlanera">
                 <div class="ContenedorHijo-txt">
                     <a href="">Minerva di Perlanera</a>
                 </div>
             </div>
-            <div class="ContenedorHijo">
+            <div class="ContenedorHijo col-xs-12 col-sm-6 col-md-6">
                 <img src="https://static.wixstatic.com/media/b83a1e_58aead92b3e64912b3b873153d2f9c26~mv2_d_1793_1366_s_2.jpg/v1/fill/w_403,h_353,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/b83a1e_58aead92b3e64912b3b873153d2f9c26~mv2_d_1793_1366_s_2.jpg" alt="Emma Von Garval">
                 <div class="ContenedorHijo-txt">
                     <a href="">Emma Von Garval</a>
                 </div>
             </div>
-            <div class="ContenedorHijo">
+            <div class="ContenedorHijo col-xs-12 col-sm-6 col-md-6">
                 <img src="https://static.wixstatic.com/media/0ba30f_b4d85fe454d24219a42c205744767605~mv2.jpeg/v1/fill/w_403,h_353,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0ba30f_b4d85fe454d24219a42c205744767605~mv2.jpeg" alt="Lubjana Von Garval">
                 <div class="ContenedorHijo-txt">
                     <a href="">Lubjana Von Garval</a>
                 </div>
             </div>
-            <div class="ContenedorHijo">
-                <img src="https://static.wixstatic.com/media/0ba30f_54063be0f8e54bdd930fb1ea0530608b~mv2.jpg/v1/fill/w_403,h_353,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0ba30f_54063be0f8e54bdd930fb1ea0530608b~mv2.jpg" alt="Alenka del Nasi">
-                <div class="ContenedorHijo-txt">
-                    <a href="">Alenka del Nasi</a>
-                </div>
-            </div>
-            <div class="ContenedorHijo">
-                <img src="https://static.wixstatic.com/media/0ba30f_c2488c64d0a64d659359ed0f2f3f26d3~mv2.jpeg/v1/fill/w_403,h_353,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0ba30f_c2488c64d0a64d659359ed0f2f3f26d3~mv2.jpeg" alt="Zoja Z Padoku">
-                <div class="ContenedorHijo-txt">
-                    <a href="">Zoja Z Padoku</a>
-                </div>
-            </div>
-            <div class="ContenedorHijo">
+            <div class="ContenedorHijo col-xs-12 col-sm-6 col-md-6">
                 <img src="https://static.wixstatic.com/media/b83a1e_80be21d411074f2aabfe798615a0a08e~mv2.jpg/v1/fill/w_403,h_353,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/b83a1e_80be21d411074f2aabfe798615a0a08e~mv2.jpg" alt="Tahi-Reme Hanna">
                 <div class="ContenedorHijo-txt">
                     <a href="/CatalogoHembras/HannaTahiReme.html">Tahi-Reme Hanna</a>
                 </div>
             </div>
-            <div class="ContenedorHijo">
+            <div class="ContenedorHijo col-xs-12 col-sm-6 col-md-6">
                 <img src="https://static.wixstatic.com/media/0ba30f_7a42ba27bfd94922ae85b35e245aa5d7~mv2.jpeg/v1/fill/w_403,h_353,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0ba30f_7a42ba27bfd94922ae85b35e245aa5d7~mv2.jpeg" alt="Visa Black Novak">
                 <div class="ContenedorHijo-txt">
                     <a href="">Visa Black Novak</a>
                 </div>
             </div>
-            <div class="ContenedorHijo">
-                <img src="https://static.wixstatic.com/media/0ba30f_b4d85fe454d24219a42c205744767605~mv2.jpeg/v1/fill/w_403,h_353,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0ba30f_b4d85fe454d24219a42c205744767605~mv2.jpeg" alt="Lubjana Von Garval">
+            <div class="ContenedorHijo col-xs-12 col-sm-6 col-md-6">
+                <img src="https://static.wixstatic.com/media/0ba30f_ef816dd3619143dba6e1dcb70452969b~mv2.jpeg/v1/fill/w_403,h_353,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0ba30f_ef816dd3619143dba6e1dcb70452969b~mv2.jpeg" alt="Sylvia von der Bugstatte">
                 <div class="ContenedorHijo-txt">
-                    <a href="">Lubjana Von Garval</a>
+                    <a href="">Sylvia von der Bugstatte</a>
                 </div>
             </div>
         </div>
@@ -127,5 +120,7 @@
         </div>
 
     </footer>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
