@@ -99,15 +99,6 @@
 
 @media screen and (min-width: 900px) {
 
-}
-
-@media screen and (min-width: 900px) {
-
-    .HeaderMainIzq-title h1 {
-        font-family: 'Roboto', sans-serif;
-        font-size: 60px;
-    }
-    
     .HeaderMainDer {
         align-items: center;
     }
