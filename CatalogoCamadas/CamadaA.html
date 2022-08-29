@@ -12,11 +12,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet"> 
     <!--Estilos Css-->
     <link rel="stylesheet" href="/styles.css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
+    <!--Estilos Generales-->
+    <link rel="stylesheet" href="/styles.css">
+    <!--Detalles Adaptables-->
+    <link rel="stylesheet" href="/DisenoAdaptable/PresentacionCamada.css">
 </head>
 <body>
     <header>
-        <div class="HeaderMain">
-            <div class="HeaderMainIzq">
+        <div class="HeaderMain container row">
+            <div class="HeaderMainIzq col-xs-12 col-md-8 col-lg-8">
                 <div class="HeaderMainIzq-img">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2Gsr9mOHh6tk0aTCJHJMfV-5hsjfuEYXChKEXw4jnSfVtil_q5OtUfIQUPcegkBTkMao&usqp=CAU" alt="LogoVonGarval">
                 </div>
@@ -24,7 +30,7 @@
                     <h1>DOBERMANN VON GARVAL</h1>
                 </div>
             </div>
-            <div class="HeaderMainDer">
+            <div class="HeaderMainDer col-xs-12 col-md-4 col-lg-4">
                 <div class="Socios">
                     <img src="http://fcm.mx/wp-content/uploads/2020/03/logo-FCM.jpg" alt="LogoFCM">
                     <h2>FCM</h2>
@@ -40,76 +46,82 @@
             </div>
         </div>
         <nav class="Menu">
-            <ul>
-                <li class="Menu-item"><a href="/index.html" rel="noopener noreferrer">Inicio</a></li>
-                <li class="Menu-item">
+            <ul class="container row">
+                <li class="Menu-item col-xs-12  col-md-2"><a href="/index.html" rel="noopener noreferrer">Inicio</a></li>
+                <li class="Menu-item col-xs-12 col-md-2">
                     <a href="/machos.html" rel="noopener noreferrer">Machos</a>
                 </li>
-                <li class="Menu-item"><a href="/hembras.html" rel="noopener noreferrer">Hembras</a></li>
-                <li class="Menu-item"><a href="/camadas.html" rel="noopener noreferrer">Camadas</a></li>
-                <li class="Menu-item"><a href="/contacto.html" rel="noopener noreferrer">Contacto</a></li>
+                <li class="Menu-item col-xs-12 col-md-2"><a href="/hembras.html" rel="noopener noreferrer">Hembras</a></li>
+                <li class="Menu-item col-xs-12 col-md-2"><a href="/camadas.html" rel="noopener noreferrer">Camadas</a></li>
+                <li class="Menu-item col-xs-12 col-md-2"><a href="/contacto.html" rel="noopener noreferrer">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    <main class="MainCamada">
-        <div class="ContenedorPadreCamada">
-            <div class="ContenedorHijoCamada">
+    <main>
+        <div class="ContenedorPadreCamada container row">
+            <div class="ContenedorHijoCamada col-12">
                 <div class="ContenedorHijoCamada-Padres">
-                    <div class="ContenedorHijoCamada-Padre">
-                        <img src="https://static.wixstatic.com/media/0ba30f_052226d7251f41dea9e6c4a4a7b33609~mv2.jpeg/v1/fill/w_968,h_774,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0ba30f_052226d7251f41dea9e6c4a4a7b33609~mv2.jpeg" alt="">
-                        <a href="">Urkan</a>
+                    <div class="BackgroundColorContainer container row">
+                        <div class="ContenedorHijoCamada-Padre col-6 col-xs-6 col-md-6">
+                            <img class=""  src="https://static.wixstatic.com/media/0ba30f_052226d7251f41dea9e6c4a4a7b33609~mv2.jpeg/v1/fill/w_968,h_774,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0ba30f_052226d7251f41dea9e6c4a4a7b33609~mv2.jpeg" alt="">
+                            <a class="" href="">Urkan</a>
+                        </div>
+                        <div class="ContenedorHijoCamada-Madre col-6 col-xs-6 col-md-6">
+                            <img class="" src="https://static.wixstatic.com/media/0ba30f_1496b1a1ee9e4e0ab30e5fd12dce8564~mv2.jpeg/v1/fill/w_998,h_774,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0ba30f_1496b1a1ee9e4e0ab30e5fd12dce8564~mv2.jpeg" alt="">
+                            <a class="" href="">Sylvia</a>
+                        </div>
+                        <div class="BackgroundColorLinkCamada col-12 col-xs-12 col-md-12"> 
+                            <a href="/CatalogoCamadas/CamadaA.html"> Camada A</a>
+                        </div>
                     </div>
-                    <div class="ContenedorHijoCamada-Madre">
-                        <img src="https://static.wixstatic.com/media/0ba30f_1496b1a1ee9e4e0ab30e5fd12dce8564~mv2.jpeg/v1/fill/w_998,h_774,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0ba30f_1496b1a1ee9e4e0ab30e5fd12dce8564~mv2.jpeg" alt="">
-                        <a href="">Sylvia</a>
-                    </div>  
+     
                 </div>
-                <h3 class="CamadaLetra">Camada A</h3>
+            </div>
+        <h2 class="CamadaFecha col-12">Nacida en septiembre 2020</h2>
+        <h3 class="Pedrigree-Title col-12">Pedrigree</h3>
+        <div class="Pedrigree col-12">
+            <div>
+                <table border="1">
+                    <tr class="table--backgroundgreen">
+                        <td></td>
+                        <td></td>
+                        <td>AbueloPaterno</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Papa</td>
+                        <td></td>
+                    </tr>
+                    <tr class="table--backgroundgreen">
+                        <td></td>
+                        <td></td>
+                        <td>AbuelaPaterna</td>
+                    </tr>
+                    <tr>
+                        <th>NombrePerro</th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="table--backgroundgreen">
+                        <td></td>
+                        <td></td>
+                        <td>AbueloMaterno</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Mama</td>
+                        <td></td>
+                    </tr>
+                    <tr class="table--backgroundgreen">
+                        <td></td>
+                        <td></td>
+                        <td>AbuelaMaterna</td>
+                    </tr>
+                </table>
             </div>
         </div>
     </main>
-    <h2 class="CamadaFecha">Nacida en septiembre 2020</h2>
-    <div class="Pedrigree">
-        <div>
-            <table border="1">
-                <tr class="table--backgroundgreen">
-                    <td></td>
-                    <td></td>
-                    <td>AbueloPaterno</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Papa</td>
-                    <td></td>
-                </tr>
-                <tr class="table--backgroundgreen">
-                    <td></td>
-                    <td></td>
-                    <td>AbuelaPaterna</td>
-                </tr>
-                <tr>
-                    <th>NombrePerro</th>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr class="table--backgroundgreen">
-                    <td></td>
-                    <td></td>
-                    <td>AbueloMaterno</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Mama</td>
-                    <td></td>
-                </tr>
-                <tr class="table--backgroundgreen">
-                    <td></td>
-                    <td></td>
-                    <td>AbuelaMaterna</td>
-                </tr>
-            </table>
-        </div>
-    </div>
+
     <footer>
         <div class="footerContainer">
             <div class="footermail">
@@ -120,7 +132,8 @@
                 <a href=""><i class="fa-brands fa-facebook"></i> Dobermann Von Garval Fan Club</a>
             </div>
         </div>
-
     </footer>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
