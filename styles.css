@@ -239,21 +239,24 @@ Y EN DADO CASO QUE SI AÑADIR PSEUDOCLASES*/
 }
 
 .ContenedorPadreCamada {
-    padding: 10px;
-    padding-top: 15px;
+    padding-top: 25px;
     padding-right: 15px;
     padding-left: 15px;
     background-color: #0c8346;
+    border: 4px solid #fcfffc;
 }
 
 .ContenedorHijoCamada-Padres {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5px
+    /*display: grid;
+    grid-template-columns: repeat(2, 1fr);*/
+    gap: 5px;
+    background-color: #0c8346;
+    width: fit-content;
 }
 
 .ContenedorHijoCamada {
     margin-bottom: 20px;
+    background-color: #0c8346;
 }
 
 .ContenedorHijoCamada a {
@@ -268,14 +271,29 @@ Y EN DADO CASO QUE SI AÑADIR PSEUDOCLASES*/
     padding-bottom: 1%;
 }
 
+.BackgroundColorContainer {
+    background-color: #0c8346;
+}
+
+.BackgroundColorLinkCamada {
+    background-color: #0c8346;
+}
+.ContenedorHijoCamada-Padre {
+    background-color: #0c8346;
+}
+
+.ContenedorHijoCamada-Madre {
+    background-color: #0c8346;
+}
+
 .ContenedorHijoCamada-Padre img {
-    width: 400px;
-    height: 320px;
+    width: 100%;
+    height: 90%;
 }
 
 .ContenedorHijoCamada-Madre img {
-    width: 400px;
-    height: 320px;
+    width: 100%;
+    height: 90%;
 }
 
 .ContenedorHijoCamada-Padre a {
@@ -283,6 +301,7 @@ Y EN DADO CASO QUE SI AÑADIR PSEUDOCLASES*/
     text-align: center;
     background-color: #063a1f;
     color: #fcfffc;
+    width: 100%;
 }
 
 .ContenedorHijoCamada-Madre a {
@@ -290,6 +309,7 @@ Y EN DADO CASO QUE SI AÑADIR PSEUDOCLASES*/
     text-align: center;
     background-color: #df2929;
     color: #fcfffc;
+    width: 100%;
 }
 
 .ContenedorHijoCamada a:hover {
