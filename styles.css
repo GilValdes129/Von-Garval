@@ -339,8 +339,8 @@ Y EN DADO CASO QUE SI AÑADIR PSEUDOCLASES*/
 
 .logo {
     text-align: center;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .ContainerContacto {
@@ -348,11 +348,7 @@ Y EN DADO CASO QUE SI AÑADIR PSEUDOCLASES*/
     justify-content: center;
 }
 
-.Contact-border {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    border: 3px solid #E8F9FD;
-}
+
 
 .Contact-form {
     display: grid;
@@ -404,8 +400,8 @@ Y EN DADO CASO QUE SI AÑADIR PSEUDOCLASES*/
 }
 
 .Contact-info {
-    padding-top: 15px;
-    padding-left: 15px;
+    /*padding-top: 15px;
+    padding-left: 15px;*/
     background-color: #df2929;
 }
 
@@ -441,6 +437,7 @@ Y EN DADO CASO QUE SI AÑADIR PSEUDOCLASES*/
     color: #f3b700;
     padding-top: 5px;
     padding-bottom: 10px;
+    width: 100%;
 }
 
 /*                              PRESENTACION DEL PERRO

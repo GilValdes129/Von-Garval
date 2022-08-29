@@ -1,0 +1,142 @@
+/*                                                          Telefonos     
+===================================================================================================================================================================
+===================================================================================================================================================================
+================================================================Contactos=============================================================================================
+==================================================================================================================================================================*/
+
+/*                               MAX-WIDTH 412px                                                                  
+======================================================================================================================================================================*/
+
+@media screen and (max-width: 450px){
+
+    .HeaderMainIzq-title h1{
+        font-family: 'Roboto', sans-serif;
+        font-size: 35px;
+    }
+
+    .HeaderMainDer {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        text-align: center;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+
+
+
+    /*                       NAV                                     */
+
+    .Menu-item a {
+        text-align: center;
+    }
+
+    .Menu-item a:target {
+        color: #f3b700;
+        transition: all .3s;
+        background-color: #df2935;
+        border-radius: 10px;
+        box-shadow: 5px 6px 8px #063a1f;
+    }
+
+    .Contact-info {
+        width: 388px;
+        margin-left: 3%;
+    }
+
+    .ContainerContacto {
+        margin-bottom: 25px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .HeaderMainIzq-title h1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+    }
+
+    .Contact-info {
+        width: 351px;
+        margin-left: 3%;
+    }
+
+
+}
+
+
+/*                                                               Max Width: 915px                                
+===================================================================================================================================================================*/
+
+@media screen and (min-width: 700px) {
+
+}
+
+@media screen and (min-width: 760px){
+    .HeaderMainIzq-title h1 {
+        font-size: 50px;
+    }
+
+
+}
+
+@media screen and (min-width: 800px) {
+    /*.ContenedorHijoCamada-Padre img {
+        width: 100%;
+        height: 276.25px;
+    }
+
+    .ContenedorHijoCamada-Madre img {
+        width: 100%;
+        height: 276.25px;
+    }*/
+}
+
+@media screen and (min-width: 900px) {
+
+    .HeaderMainDer {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .BackgroundColorLinkCamada {
+        background-color: #0c8346;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .BackgroundColorLinkCamada {
+        background-color: #0c8346;
+        margin-top: 8%;
+    }
+}
+
+/*                                                          Tablets     
+===================================================================================================================================================================
+===================================================================================================================================================================*/
+
+
+
+
+@media screen and (min-width: 1000px) {
+
+    .HeaderMainIzq-title h1 {
+        font-size: 65px;
+    }
+
+
+}
+
+@media screen and (min-width: 1200px) {
+    .HeaderMainIzq-title h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+}
