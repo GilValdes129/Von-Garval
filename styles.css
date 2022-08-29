@@ -444,16 +444,13 @@ Y EN DADO CASO QUE SI AÑADIR PSEUDOCLASES*/
 ====================================================================================================*/
 
 .DatosPerro {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
     margin: 1% 0;
     text-align: center;
+    margin-top: 25px;
 }
 
 .InformacionDelPerro {
     margin-top: 15px;
-    display: grid;
-    grid-template-columns: 1fr;
 }
 
 .InformacionDelPerro-img {
@@ -468,6 +465,11 @@ Y EN DADO CASO QUE SI AÑADIR PSEUDOCLASES*/
     padding-top: 25px;
     padding-right: 25px;
     padding-bottom: 25px;
+}
+
+.Pedrigree-Title {
+    text-align: center;
+    font-size: 35px;
 }
 
 .Pedrigree {
@@ -497,6 +499,7 @@ Y EN DADO CASO QUE SI AÑADIR PSEUDOCLASES*/
     align-content: center;
     justify-content: center;
     gap: 50px;
+    margin-bottom: 25px;
 }
 
 .ListaTitulos-Trabajo {
