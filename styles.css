@@ -653,14 +653,16 @@ ol, ul {
 /*                              FOOTER
 ====================================================================================================*/
 
+#FooterContact {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 
 .footerContainer {
     margin-top: 2%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    position: relative;
-    bottom: 0;
-
 }
 
 .footerContainer h3 {
