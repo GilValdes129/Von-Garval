@@ -59,6 +59,14 @@
         width: 350px;
     }
 
+    .carousel-inner {
+        width: 350px;
+    }
+    
+    .carousel-item img {
+        max-height: 500px;
+    }
+
 
 }
 
