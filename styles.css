@@ -70,7 +70,6 @@
 .Menu {
     display: flex;
     justify-content: center;
-    padding-bottom: 10px;
     background-color: #0c8346;
     border-bottom: 3px solid #df2935;
 }
@@ -484,6 +483,7 @@ Y EN DADO CASO QUE SI AÑADIR PSEUDOCLASES*/
 .Pedrigree table {
     width: 300px;
     height: 300px;
+    text-align: center;
 }
 
 table tr {
@@ -686,4 +686,5 @@ ol, ul {
 
 .footerlink a, i {
     background-color: #df2935;
+    color: #fcfffc;
 }
