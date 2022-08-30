@@ -5,6 +5,11 @@
     color: #fcfffc;
 }
 
+main{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
 .HeaderMain{
     display: flex;
     flex-direction: row;
