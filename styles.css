@@ -444,9 +444,8 @@ Y EN DADO CASO QUE SI AÑADIR PSEUDOCLASES*/
 ====================================================================================================*/
 
 .DatosPerro {
-    margin: 1% 0;
     text-align: center;
-    margin-top: 25px;
+    padding-top: 25px;
 }
 
 .InformacionDelPerro {
@@ -483,8 +482,16 @@ Y EN DADO CASO QUE SI AÑADIR PSEUDOCLASES*/
 }
 
 .Pedrigree table {
-    width: 400px;
+    width: 300px;
     height: 300px;
+}
+
+table tr {
+    border: 2px solid #fcfffc;
+}
+
+.tableData {
+    border-left: 2px solid #fcfffc;
 }
 
 .table--backgroundgreen td {
@@ -502,9 +509,13 @@ Y EN DADO CASO QUE SI AÑADIR PSEUDOCLASES*/
     margin-bottom: 25px;
 }
 
+ol, ul {
+    padding-left: 0;
+  }
+
 .ListaTitulos-Trabajo {
     text-align: center;
-    border: 2px solid #fcfffc;
+    
 }
 
 .ListaTitulos-Trabajo h3 {
@@ -552,6 +563,11 @@ Y EN DADO CASO QUE SI AÑADIR PSEUDOCLASES*/
 .ListaTitulos-Belleza--verde {
     background-color: #0c8346;
     border-bottom: 2px solid #fcfffc;
+}
+
+.carousel-item img {
+    width: 500px;
+    height: 400px;
 }
 
 /*                             CAMADA ESPECIFICO
