@@ -149,22 +149,19 @@
                 </div>
             </div>
             <div class="ListasTitulos col-12">
-                <div class="row">
-                    <div class="ListaTitulos-Trabajo col-12">
-                        <h3>Titulos de Trabajo</h3>
-                        <ul>
-                            <li class="ListaTitulos-Trabajo--rojo AlinearContenido">BH</li>
-                            <li class="ListaTitulos-Trabajo--verde">IGP 1
-                                <!--Preguntar como seria posible hacer la lista desplegable-->
-                                <!--<ol class="ListaTitulos-Trabajo--resultados">
-                                    <li>Rastro 98</li>
-                                    <li>Obediencia 95</li>
-                                    <li>Proteccion 90</li>
-                                </ol>-->
-                            </li>
-
-                      </div>
-
+                <div class="ListaTitulos-Trabajo col-12 col-md-3">
+                    <h3>Titulos de Trabajo</h3>
+                    <ul id="menu">
+                        <li class="ListaTitulos-Trabajo--rojo AlinearContenido">BH</li>
+                        <li class="ListaTitulos-Trabajo--verde"><input type="checkbox" class="ListaTitulos-Trabajo--verde" name="list" id="nivel1-1"><label class="ListaTitulos-Trabajo--verde--subitem"  for="nivel1-1">IGP 1</label>
+                            <ul class="interior">
+                                  <li class="ListaTitulos-Trabajo--verde--subitem"><label class="ListaTitulos-Trabajo--verde--subitem" for="nivel2-1">Protecion: 98</label></li>
+                                  <li class="ListaTitulos-Trabajo--verde--subitem"><label class="ListaTitulos-Trabajo--verde--subitem" for="nivel2-2">Rastro: 90</label> </li>
+                                  <li class="ListaTitulos-Trabajo--verde--subitem"><label class="ListaTitulos-Trabajo--verde--subitem" for="nivel2-2">Obediencia: 90</label> </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
 
             </div>
         </div>
