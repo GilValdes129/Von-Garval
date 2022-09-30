@@ -1,0 +1,566 @@
+$background-color: #222222;
+$background-content: #0c8346;
+$font-color: #fcfffc;
+$red-color: #df2935;
+$golden-color: #f3b700;
+$font-family: 'Oswald', sans-serif;
+$font-header: 'Roboto', sans-serif;
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: $background-color;
+    color: $font-color; 
+    font-family: $font-family;
+}
+
+.HeaderMain{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    border-bottom: 3px solid $red-color;
+    max-width: 100%;
+    .HeaderMainIzq {
+        display: flex;
+        align-items: center;
+        .HeaderMainIzq-img {
+            padding-left: 15px;
+            padding-top: 10px;
+            width: fit-content;
+            margin-left: 35px;         
+            img {
+                height: 100px;
+                width: 90px;
+            }
+        } 
+        .HeaderMainIzq-title {
+            padding-left: 30px;
+            h1 {
+                font-family: $font-header;
+                font-size: 60px;
+            }
+        }          
+    }
+    .HeaderMainDer {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: end;
+        text-align: center;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        align-items: center;
+
+        .Socios {
+            padding-top: 10px;
+            padding-right: 25px;
+            img {
+                height: 50px;
+                width: 40px;
+            }
+            h2 {
+                font-family: $font-header;
+            }
+        }
+    }
+}
+
+/*******************************MENU***********************************************************/
+.Menu {
+    display: flex;
+    justify-content: center;
+    background-color: $background-content;
+    border-bottom: 3px solid $red-color;
+    ul{
+        list-style: none; 
+        background-color: $background-content;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 0;
+        li {
+            background-color: $background-content;
+            a{
+                display: block;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-left: 20px;
+                padding-right: 20px;
+                text-decoration: none;
+                background-color: $background-content;
+                text-align: center;
+                color: $font-color;
+            }
+            a:hover {
+                color: $golden-color;
+                transition: all .3s;
+                background-color: $red-color;
+                border-radius: 10px;
+                box-shadow: 5px 6px 8px #063a1f;
+            }
+        }
+    }
+}
+/*************************************Main-Index*********************************************************/
+.MainIndex {
+    display: flex;
+    justify-content: center;
+    .MainContainer {
+        background-color:  $background-content;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        border: 5px solid $font-color;
+        height: fit-content;
+        .MainContainer-img {
+            margin-bottom: 25px;
+            background-color: #063a1f;
+            box-shadow: 5px 6px 8px #063a1f;
+            border-radius: 12px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            width: fit-content;
+            height: fit-content;
+            display: flex;
+            justify-content: center;
+            img {
+                max-width: 100%;
+                height: 500px;
+            }
+        }
+        .MainContainer-txt {
+            height: fit-content;
+            background-color: $red-color;
+            padding-bottom: 10px;
+            border-radius: 12px;
+            box-shadow: 5px 6px 8px #063a1f;
+            h2 {
+                margin-top: 20px;
+                margin-bottom: 15px;
+                margin-left: 15px;
+                font-family: $font-family;
+                font-size: xx-large;
+                background-color: $red-color;
+                color: $golden-color;
+            }
+            p {
+                font-size: 16px;
+                margin-left: 15px;
+                background-color: $red-color;
+                padding-bottom: 15px;
+            }
+        }
+    }
+}
+/***************************************    MAIN MACHOS-HEMBRAS*****************************************/
+.MainCatalogo {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    .ContenedorPadre {
+        background-color: $background-content;
+        padding-bottom: 25px;
+        justify-content: center;
+        padding-top: 25px;
+        margin-top: 15px; 
+        .ContenedorHijo {
+            width: fit-content;
+            margin-bottom: 25px;
+            background-color: $background-content;
+            img {
+                width: 400px;
+                height: 320px;
+            }
+            .ContenedorHijo-txt {
+                text-align: center;
+                background-color: $background-color;
+                height: fit-content;
+                a {
+                    display: block;
+                    text-decoration: none;
+                    height: 18px;
+                    padding-top: 2%;
+                    padding-bottom: 2%;
+                }
+                a:hover {
+                    background-color: $red-color;
+                    color: $golden-color;
+                    font-size: 18px;
+                    font-weight: 700;
+                    transition: all .3s;
+                }
+            }
+        }
+    }
+}
+/************************************************   MAIN CAMADAS *****************************************/
+.MainCamada {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    .ContenedorPadreCamada {
+        padding-top: 25px;
+        padding-right: 15px;
+        padding-left: 15px;
+        background-color: $background-content;
+        border: 4px solid $font-color;
+        .ContenedorHijoCamada {
+            margin-bottom: 20px;
+            background-color: $background-content;
+            a{
+                display: block;
+                text-decoration: none;
+                font-size: 22px;
+                font-weight: 700;
+                text-align: center;
+                background-color: $font-color;
+                color: $background-color;
+                padding-top: 1%;
+                padding-bottom: 1%;
+            }
+            a:hover{
+                font-size: 25px;
+                font-weight: 800;
+                transition: all .3s;
+            }
+            .ContenedorHijoCamada-Padres {
+                gap: 5px;
+                background-color: $background-content;
+                width: fit-content;
+                .BackgroundColorContainer {
+                    background-color: $background-content;
+                    .ContenedorHijoCamada-Padre {
+                        background-color: $background-content;
+                        img{
+                            width: 100%;
+                            height: 90%;
+                        }
+                        a{
+                            font-weight: 100;
+                            text-align: center;
+                            background-color: #063a1f;
+                            color: $font-color;
+                            width: 100%;
+                        }
+                        a:hover{
+                            font-size: 25px;
+                            font-weight: 800;
+                            transition: all .3s;
+                        }
+                    }
+                    .ContenedorHijoCamada-Madre {
+                        background-color: $background-content;
+                        img{
+                            width: 100%;
+                            height: 90%;
+                        }
+                        a {
+                            font-weight: 100;
+                            text-align: center;
+                            background-color: $red-color;
+                            color: $font-color;
+                            width: 100%;
+                        }
+                        a:hover{
+                            font-size: 25px;
+                            font-weight: 800;
+                            transition: all .3s;
+                        }
+                    }
+                    .BackgroundColorLinkCamada {
+                        background-color: $background-content;
+                    }
+                }
+            }
+        }
+
+    }
+}
+/************************************************   Contacto*********************************************/
+.logo {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.ContainerContacto {
+    display: flex;
+    justify-content: center;
+    .Contact-form {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: $background-content;
+        padding-left: 15px;
+        padding-top: 15px;
+        .Pregunta {
+            margin-bottom: 5%;
+            background-color: $background-content;
+            label {
+                display: block;
+                background-color: $background-content;
+                margin-bottom: 2%;
+            }
+            input, textarea{
+                background-color: $background-content;
+                border: none;
+                border-bottom: 3px groove $font-color;
+            }
+
+        }
+        .boton {
+            display: flex;
+            justify-content: end;
+            font-size: 20px;
+            button{
+                padding: 5px;
+                background-color: $background-content;
+                margin-top: 5px;
+            }
+            button:hover{
+                    font-size: 23px;
+                    font-weight: 700;
+                    padding: 5px;
+                    transition: all .3s;
+                    cursor: pointer;
+            }
+        }
+    }
+    .Contact-info {
+        background-color: $red-color;
+        h3{
+            font-size: 20px;
+            background-color: $red-color;
+            color: $golden-color;
+            padding-bottom: 10px;
+        }
+        ul{
+            list-style: none;
+            background-color: $red-color;
+            color: $golden-color;
+            padding-bottom: 5px;
+            li{
+                background-color: $red-color;
+                color: $golden-color;
+                padding: 3px 0;
+                i{
+                    background-color: $red-color;
+                    color: $golden-color;
+                    padding-right: 2px;
+                }
+            }
+        }
+        p{
+            width: 350px;
+            background-color: $red-color;
+            color: $golden-color;
+            padding-top: 5px;
+            padding-bottom: 10px;
+            width: 100%;
+        }
+    }
+}
+/********************************************************* Presentacion Perro*******************************/
+.DatosPerro {
+    text-align: center;
+    padding-top: 25px;
+}
+.InformacionDelPerro {
+    margin-top: 15px;
+    .InformacionDelPerro-img {
+        display: flex;
+        justify-content: center;
+        .carousel-inner {
+            width: 500px;
+            .carousel-item{
+                img{
+                    max-height: 600px;
+                }
+            }
+        }
+        img{
+            width: 500px;
+            height: auto;
+            padding-left: 25px;
+            padding-top: 25px;
+            padding-right: 25px;
+            padding-bottom: 25px;
+        }
+    }
+}
+.Pedrigree-Title {
+    text-align: center;
+    font-size: 35px;
+}
+.Pedrigree {
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    div {
+        padding: 20px;
+    }
+    table {
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        .table--backgroundgreen {
+            td{
+                background-color: $background-content;   
+            } 
+        }
+        tr{
+            border: 2px solid $font-color;
+            .tableData {
+                border-left: 2px solid $font-color;
+            }
+        }
+    }
+}
+.ListasTitulos {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 25px;
+    .ListaTitulos-Trabajo {
+        text-align: center; 
+        h3{
+            background-color: $background-content;
+            padding: 5px 3px;
+            border-bottom: 2px solid $font-color;
+        }
+
+        #menu * { list-style:none;}
+        #menu li{ line-height:180%;}
+        #menu li a{color:#222; text-decoration:none;}
+        #menu li a:before{ content:"\025b8"; color:#ddd; margin-right:4px;}
+        #menu input[name="list"] {
+            position: absolute;
+            left: -1000em;
+            }
+        #menu label:before{ content:"\025b8"; margin-right:4px;}
+        #menu input:checked ~ label:before{ content:"\025be";}
+        #menu .interior{display: none;}
+        #menu input:checked ~ ul{display:block;}
+        ul{
+            padding-left: 0;
+            .ListaTitulos-Trabajo--rojo {
+                background-color: $red-color;
+                border-bottom: 2px solid $font-color;
+            }
+            .ListaTitulos-Trabajo--verde {
+                background-color: $background-content;
+                border-bottom: 2px solid $font-color;
+                .ListaTitulos-Trabajo--verde--subitem {
+                    background-color: $background-content;
+                }
+            }
+            li{
+                list-style: none;
+                padding: 5px 0;
+            }
+
+        }
+
+    }
+}
+/***************************************************PRESENTACION-CAMADA***********************************/
+.ContenedorPadreCamada {
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: $background-content;
+    border: 4px solid $font-color;
+    .ContenedorHijoCamada {
+        margin-bottom: 20px;
+        background-color: $background-content;
+        a{
+            display: block;
+            text-decoration: none;
+            font-size: 22px;
+            font-weight: 700;
+            text-align: center;
+            background-color: $font-color;
+            color: $background-color;
+            padding-top: 1%;
+            padding-bottom: 1%;
+        }
+        a:hover{
+            font-size: 25px;
+            font-weight: 800;
+            transition: all .3s;
+        }
+        .ContenedorHijoCamada-Padres {
+            gap: 5px;
+            background-color: $background-content;
+            width: fit-content;
+            .BackgroundColorContainer {
+                background-color: $background-content;
+                .ContenedorHijoCamada-Padre {
+                    background-color: $background-content;
+                    img {
+                        width: 100%;
+                        height: 90%;
+                    }
+                    a {
+                        font-weight: 100;
+                        text-align: center;
+                        background-color: #063a1f;
+                        color: $font-color;
+                        width: 100%;
+                    }
+                }
+                .ContenedorHijoCamada-Madre {
+                    background-color: $background-content;
+                    img{
+                        width: 100%;
+                        height: 90%;
+                    }
+                    a{
+                        font-weight: 100;
+                        text-align: center;
+                        background-color: $red-color;
+                        color: $font-color;
+                        width: 100%;
+                    }
+                }
+                .BackgroundColorLinkCamada {
+                    background-color: $background-content;
+                }
+            }
+        }
+
+    }
+    .CamadaFecha {
+        text-align: center;
+    }
+}
+
+/*************************************** FOOTER************************************************/
+.footerContainer {
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    h3 {
+        background-color: #df2935;
+        padding-bottom: 1%;
+    }
+    p {
+        display: block;
+        background-color: #df2935;
+    }
+    .footermail {
+        background-color: #df2935;
+        padding-left: 6%;
+    }
+    .footerlink {
+        background-color: #df2935;
+        a, i {
+            background-color: #df2935; 
+        }
+    }
+}
