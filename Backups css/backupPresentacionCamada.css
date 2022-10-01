@@ -1,18 +1,39 @@
 /*                                                          Telefonos     
 ===================================================================================================================================================================
 ===================================================================================================================================================================
-================================================================Camadas=============================================================================================
+================================================================PresentacionCamadas=============================================================================================
 ==================================================================================================================================================================*/
+
+.Pedrigree table {
+    width: 600px;
+}
+
+
 
 /*                               MAX-WIDTH 412px                                                                  
 ======================================================================================================================================================================*/
 
+.CamadaFecha, .Pedrigree-Title, .Pedrigree  {
+    background-color: #0c8346;
+}
+
+.Pedrigree div {
+    padding: 20px;
+    background-color: #0c8346;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
 @media screen and (max-width: 450px){
 
-    .HeaderMainIzq-title h1{
-        font-family: 'Roboto', sans-serif;
+    .HeaderMain .HeaderMainIzq .HeaderMainIzq-title h1 {
+        font-family: "Roboto", sans-serif;
         font-size: 35px;
-    }
+      }
 
     .HeaderMainDer {
         display: flex;
@@ -42,7 +63,7 @@
 
     .ContenedorPadreCamada {
         margin: 3% 0;
-        width: 80%;
+        width: 90%;
     }
 
     .BackgroundColorLinkCamada {
@@ -50,7 +71,32 @@
         margin-top: 6%;
     }
 
+    .Pedrigree div {
+        background: #0c8346;
+    }
 
+    .Pedrigree table {
+        width: 300px;
+        height: 200px;
+    }
+
+    .CamadaFecha {
+        text-align: center;
+        margin-top: 15px;
+        background-color: #0c8346;
+        padding-bottom: 15px;
+    }
+
+    .Pedrigree {
+        height: fit-content;
+        background-color: #0c8346;
+    }
+
+    .Pedrigree-Title {
+        text-align: center;
+        font-size: 35px;
+        background-color: #0c8346;
+      }
 
 }
 
@@ -61,7 +107,9 @@
         font-size: 30px;
     }
 
-  
+    .Pedrigree table {
+        width: 300px;
+    }
 
 
 }

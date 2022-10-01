@@ -1,7 +1,7 @@
 /*                                                          Telefonos     
 ===================================================================================================================================================================
 ===================================================================================================================================================================
-================================================================Machos-Hembras=============================================================================================
+================================================================Contactos=============================================================================================
 ==================================================================================================================================================================*/
 
 /*                               MAX-WIDTH 412px                                                                  
@@ -9,10 +9,10 @@
 
 @media screen and (max-width: 450px){
 
-    .HeaderMainIzq-title h1{
-        font-family: 'Roboto', sans-serif;
+    .HeaderMain .HeaderMainIzq .HeaderMainIzq-title h1 {
+        font-family: "Roboto", sans-serif;
         font-size: 35px;
-    }
+      }
 
     .HeaderMainDer {
         display: flex;
@@ -22,6 +22,9 @@
         margin-top: 12px;
         margin-bottom: 12px;
     }
+
+
+
 
     /*                       NAV                                     */
 
@@ -37,79 +40,52 @@
         box-shadow: 5px 6px 8px #063a1f;
     }
 
-    /*                        Hembras-Machos Catalogo                    */
-
-    .ContenedorPadre {
-        width: 90%;
-        border: 4px solid #fff;
-        margin-bottom: 20px;
+    .Contact-info {
+        width: 388px;
+        margin-left: 3%;
     }
 
-    .ContenedorHijo img {
-        width: 346.8px;
-        height: auto;
+    .ContainerContacto {
+        margin-bottom: 25px;
     }
 
-    .ContenedorHijo-txt a {
-        padding: 4% 0;
-    }
-
-    .ContenedorHijo img {
-        width: 346.8px;
-        height: auto;
-    }
 }
 
 @media screen and (max-width: 400px) {
-    .ContenedorHijo img {
-        width: 313.5px;
-        height: 251px;
-    }
 
-      .HeaderMainIzq-title h1 {
+    .HeaderMainIzq-title h1 {
         font-family: 'Roboto', sans-serif;
         font-size: 30px;
     }
+
+    .Contact-info {
+        width: 351px;
+        margin-left: 3%;
+    }
+
+
 }
 
 
 /*                                                               Max Width: 915px                                
 ===================================================================================================================================================================*/
 
-
-/*                 A partir de los telefonos horizontales se empiezan a ver 2 perros por linea                     */
 @media screen and (min-width: 700px) {
-    .ContenedorPadre {
-        border: 4px solid #fff;
-        /*display: grid;
-        grid-template-columns: repeat(2, 1fr);*/
-    }
 
-    .ContenedorHijo img {
-        width: 300px;
-        height: 240px;
-    }
 }
 
 @media screen and (min-width: 760px){
     .HeaderMainIzq-title h1 {
         font-size: 50px;
     }
+
+
 }
 
 @media screen and (min-width: 900px) {
 
     .HeaderMainDer {
         align-items: center;
-    }
-    
-    .ContenedorHijo img {
-        width: 350px;
-        height: 280px;
-    }
-
-    .ContenedorPadre {
-        border: 4px solid #fff;
     }
 }
 
@@ -126,10 +102,7 @@
         font-size: 65px;
     }
 
-    .ContenedorHijo img {
-        width: 450px;
-        height: 360px;
-    }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -138,9 +111,3 @@
     }
 }
 
-@media screen and (min-width: 1400px) {
-    .ContenedorHijo img {
-        width: 500px;
-        height: 400px;
-    }
-}

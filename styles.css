@@ -44,6 +44,36 @@
       .HeaderMain .HeaderMainDer .Socios h2 {
         font-family: "Roboto", sans-serif; }
 
+@media screen and (min-width: 760px) {
+  .HeaderMain .HeaderMainIzq .HeaderMainIzq-title h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 50px; } }
+
+@media screen and (min-width: 900px) {
+  .HeaderMain .HeaderMainIzq .HeaderMainIzq-title h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 60px; } }
+
+@media screen and (min-width: 1000px) {
+  .HeaderMain .HeaderMainIzq .HeaderMainIzq-title h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px; } }
+
+@media screen and (min-width: 1400px) {
+  .HeaderMain .HeaderMainIzq .HeaderMainIzq-title h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 50px; } }
+
+@media screen and (max-width: 450px) {
+  .HeaderMain .HeaderMainIzq .HeaderMainIzq-title h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 35px; } }
+
+@media screen and (max-width: 400px) {
+  .HeaderMain .HeaderMainIzq .HeaderMainIzq-title h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px; } }
+
 /*******************************MENU***********************************************************/
 .Menu {
   display: flex;
@@ -135,7 +165,8 @@
     padding-bottom: 25px;
     justify-content: center;
     padding-top: 25px;
-    margin-top: 15px; }
+    margin-top: 15px;
+    border: 3px solid #fcfffc; }
     .MainCatalogo .ContenedorPadre .ContenedorHijo {
       width: fit-content;
       margin-bottom: 25px;
@@ -159,6 +190,16 @@
           font-size: 18px;
           font-weight: 700;
           transition: all .3s; }
+
+@media screen and (max-width: 450px) {
+  .MainCatalogo .ContenedorPadre .ContenedorHijo img {
+    width: 346.8px;
+    height: auto; } }
+
+@media screen and (max-width: 400px) {
+  .MainCatalogo .ContenedorPadre .ContenedorHijo img {
+    width: 300px;
+    height: auto; } }
 
 /************************************************   MAIN CAMADAS *****************************************/
 .MainCamada {
@@ -227,6 +268,14 @@
           .MainCamada .ContenedorPadreCamada .ContenedorHijoCamada .ContenedorHijoCamada-Padres .BackgroundColorContainer .BackgroundColorLinkCamada {
             background-color: #0c8346; }
 
+@media screen and (max-width: 850px) {
+  .MainCamada .ContenedorPadreCamada .ContenedorHijoCamada .ContenedorHijoCamada-Padres .BackgroundColorContainer .BackgroundColorLinkCamada {
+    margin-top: 3%; } }
+
+@media screen and (max-width: 450px) {
+  .MainCamada .ContenedorPadreCamada .ContenedorHijoCamada .ContenedorHijoCamada-Padres .BackgroundColorContainer .BackgroundColorLinkCamada {
+    margin-top: 18%; } }
+
 /************************************************   Contacto*********************************************/
 .logo {
   text-align: center;
@@ -294,6 +343,12 @@
       padding-top: 5px;
       padding-bottom: 10px;
       width: 100%; }
+
+@media screen and (max-width: 450px) {
+  .ContainerContacto .Contact-info {
+    margin-top: 2%;
+    width: 96%;
+    margin-left: 2%; } }
 
 /********************************************************* Presentacion Perro*******************************/
 .DatosPerro {

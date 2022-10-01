@@ -30,10 +30,10 @@ main {
 
 @media screen and (max-width: 450px){
 
-    .HeaderMainIzq-title h1{
-        font-family: 'Roboto', sans-serif;
+    .HeaderMain .HeaderMainIzq .HeaderMainIzq-title h1 {
+        font-family: "Roboto", sans-serif;
         font-size: 35px;
-    }
+      }
 
     .HeaderMainDer {
         display: flex;

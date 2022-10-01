@@ -1,7 +1,7 @@
 /*                                                          Telefonos     
 ===================================================================================================================================================================
 ===================================================================================================================================================================
-================================================================Machos-Hembras=============================================================================================
+================================================================PresentacionPerros=============================================================================================
 ==================================================================================================================================================================*/
 
 /*                               MAX-WIDTH 412px                                                                  
@@ -9,10 +9,10 @@
 
 @media screen and (max-width: 450px){
 
-    .HeaderMainIzq-title h1{
-        font-family: 'Roboto', sans-serif;
+    .HeaderMain .HeaderMainIzq .HeaderMainIzq-title h1 {
+        font-family: "Roboto", sans-serif;
         font-size: 35px;
-    }
+      }
 
     .HeaderMainDer {
         display: flex;
@@ -22,6 +22,9 @@
         margin-top: 12px;
         margin-bottom: 12px;
     }
+
+
+
 
     /*                       NAV                                     */
 
@@ -37,39 +40,39 @@
         box-shadow: 5px 6px 8px #063a1f;
     }
 
-    /*                        Hembras-Machos Catalogo                    */
+    .InformacionDelPerro .InformacionDelPerro-img .carousel-inner .carousel-item img {
+        max-height: 500px;
+      }
 
-    .ContenedorPadre {
-        width: 90%;
-        border: 4px solid #fff;
-        margin-bottom: 20px;
-    }
+      .InformacionDelPerro .InformacionDelPerro-img .carousel-inner {
+        width: 350px; }
 
-    .ContenedorHijo img {
-        width: 346.8px;
-        height: auto;
-    }
-
-    .ContenedorHijo-txt a {
-        padding: 4% 0;
-    }
-
-    .ContenedorHijo img {
-        width: 346.8px;
-        height: auto;
-    }
 }
 
 @media screen and (max-width: 400px) {
-    .ContenedorHijo img {
-        width: 313.5px;
-        height: 251px;
+
+    .HeaderMain .HeaderMainIzq .HeaderMainIzq-title h1 {
+        font-family: "Roboto", sans-serif;
+        font-size: 30px;
+      }
+    
+    .InformacionDelPerro .InformacionDelPerro-img img {
+        width: 350px;
     }
 
-      .HeaderMainIzq-title h1 {
-        font-family: 'Roboto', sans-serif;
-        font-size: 30px;
+    .Pedrigree table {
+        width: 350px;
     }
+
+
+    
+    .InformacionDelPerro .InformacionDelPerro-img .carousel-inner .carousel-item img {
+        max-height: 500px;
+      }
+
+      .InformacionDelPerro .InformacionDelPerro-img .carousel-inner {
+        width: 300px; }
+
 }
 
 
@@ -77,45 +80,21 @@
 ===================================================================================================================================================================*/
 
 
-/*                 A partir de los telefonos horizontales se empiezan a ver 2 perros por linea                     */
-@media screen and (min-width: 700px) {
-    .ContenedorPadre {
-        border: 4px solid #fff;
-        /*display: grid;
-        grid-template-columns: repeat(2, 1fr);*/
-    }
-
-    .ContenedorHijo img {
-        width: 300px;
-        height: 240px;
-    }
-}
-
 @media screen and (min-width: 760px){
     .HeaderMainIzq-title h1 {
         font-size: 50px;
     }
-}
 
+    .Pedrigree table {
+        width: 500px;
+        height: 300px;
+      }
+}
 
 @media screen and (min-width: 900px) {
 
-    .HeaderMainIzq-title h1 {
-        font-family: 'Roboto', sans-serif;
-        font-size: 60px;
-    }
-    
     .HeaderMainDer {
         align-items: center;
-    }
-    
-    .ContenedorHijo img {
-        width: 350px;
-        height: 280px;
-    }
-
-    .ContenedorPadre {
-        border: 4px solid #fff;
     }
 }
 
@@ -132,10 +111,7 @@
         font-size: 65px;
     }
 
-    .ContenedorHijo img {
-        width: 450px;
-        height: 360px;
-    }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -144,9 +120,3 @@
     }
 }
 
-@media screen and (min-width: 1400px) {
-    .ContenedorHijo img {
-        width: 500px;
-        height: 400px;
-    }
-}

@@ -1,12 +1,11 @@
 /*                                                          Telefonos     
 ===================================================================================================================================================================
 ===================================================================================================================================================================
-================================================================PresentacionPerros=============================================================================================
+================================================================Header=============================================================================================
 ==================================================================================================================================================================*/
 
 /*                               MAX-WIDTH 412px                                                                  
 ======================================================================================================================================================================*/
-
 @media screen and (max-width: 450px){
 
     .HeaderMain .HeaderMainIzq .HeaderMainIzq-title h1 {
@@ -23,9 +22,6 @@
         margin-bottom: 12px;
     }
 
-
-
-
     /*                       NAV                                     */
 
     .Menu-item a {
@@ -40,83 +36,101 @@
         box-shadow: 5px 6px 8px #063a1f;
     }
 
-    .InformacionDelPerro .InformacionDelPerro-img .carousel-inner .carousel-item img {
-        max-height: 500px;
-      }
+    /*                        Main-Index                    */
 
-      .InformacionDelPerro .InformacionDelPerro-img .carousel-inner {
-        width: 350px; }
+    .MainContainer {
+        margin-bottom: 25px;
+        width: 350px;
+    }
+
+    .MainContainer-txt h2 {
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .MainContainer-img img {
+        max-width: 75%;
+        height: 300px;
+    }
 
 }
 
 @media screen and (max-width: 400px) {
-
-    .HeaderMain .HeaderMainIzq .HeaderMainIzq-title h1 {
-        font-family: "Roboto", sans-serif;
+    
+      .HeaderMainIzq-title h1 {
+        font-family: 'Roboto', sans-serif;
         font-size: 30px;
-      }
-    
-    .InformacionDelPerro .InformacionDelPerro-img img {
-        width: 350px;
     }
-
-    .Pedrigree table {
-        width: 350px;
-    }
-
-
-    
-    .InformacionDelPerro .InformacionDelPerro-img .carousel-inner .carousel-item img {
-        max-height: 500px;
-      }
-
-      .InformacionDelPerro .InformacionDelPerro-img .carousel-inner {
-        width: 300px; }
-
 }
-
 
 /*                                                               Max Width: 915px                                
 ===================================================================================================================================================================*/
 
+@media screen and (max-width: 950px) {
 
-@media screen and (min-width: 760px){
-    .HeaderMainIzq-title h1 {
-        font-size: 50px;
-    }
-
-    .Pedrigree table {
-        width: 500px;
-        height: 300px;
-      }
-}
-
-@media screen and (min-width: 900px) {
-
+    /*                                   HEADER                                          */
+    
+    
     .HeaderMainDer {
         align-items: center;
     }
+
+    
 }
+
+
 
 /*                                                          Tablets     
 ===================================================================================================================================================================
 ===================================================================================================================================================================*/
 
-
-
-
-@media screen and (min-width: 1000px) {
-
-    .HeaderMainIzq-title h1 {
-        font-size: 65px;
-    }
-
-
-}
-
-@media screen and (min-width: 1200px) {
-    .HeaderMainIzq-title h1 {
+@media screen and (min-width: 760px) {
+    .HeaderMainIzq-title h1{
         font-size: 50px;
     }
 }
 
+@media screen and (min-width: 900px) {
+    .HeaderMainIzq-title h1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 60px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .MainContainer-img {
+        padding: 2% 5%;
+    }
+
+    .HeaderMainIzq-title h1{
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .MainContainer-img {
+        padding: 2% 14%;
+    }
+}
+
+/*                                                          Computadoras     
+===================================================================================================================================================================
+===================================================================================================================================================================*/
+
+@media screen and (min-width: 1400px) {
+    .HeaderMainIzq-title h1{
+        font-size: 50px;
+    }
+
+    .MainContainer-txt {
+        max-width: 90%;
+    }
+
+    .MainContainer-img {
+        padding: 2% 10%;
+    }
+    
+      .MainContainer-txt {
+        max-width: 82%;
+    }
+}

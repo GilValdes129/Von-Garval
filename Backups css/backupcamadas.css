@@ -1,14 +1,16 @@
 /*                                                          Telefonos     
 ===================================================================================================================================================================
 ===================================================================================================================================================================
-================================================================Header=============================================================================================
+================================================================Camadas=============================================================================================
 ==================================================================================================================================================================*/
 
 /*                               MAX-WIDTH 412px                                                                  
 ======================================================================================================================================================================*/
+
 @media screen and (max-width: 450px){
 
-    .HeaderMainIzq-title h1 {
+    .HeaderMainIzq-title h1{
+        font-family: 'Roboto', sans-serif;
         font-size: 35px;
     }
 
@@ -20,6 +22,9 @@
         margin-top: 12px;
         margin-bottom: 12px;
     }
+
+
+
 
     /*                       NAV                                     */
 
@@ -35,101 +40,93 @@
         box-shadow: 5px 6px 8px #063a1f;
     }
 
-    /*                        Main-Index                    */
-
-    .MainContainer {
-        margin-bottom: 25px;
-        width: 350px;
+    .ContenedorPadreCamada {
+        margin: 3% 0;
+        width: 80%;
     }
 
-    .MainContainer-txt h2 {
-        text-align: center;
-        padding-top: 15px;
+    .BackgroundColorLinkCamada {
+        background-color: #0c8346;
+        margin-top: 6%;
     }
 
-    .MainContainer-img img {
-        max-width: 75%;
-        height: 300px;
-    }
+
 
 }
 
 @media screen and (max-width: 400px) {
-    
-      .HeaderMainIzq-title h1 {
+
+    .HeaderMainIzq-title h1 {
         font-family: 'Roboto', sans-serif;
         font-size: 30px;
     }
+
+  
+
+
 }
+
 
 /*                                                               Max Width: 915px                                
 ===================================================================================================================================================================*/
 
-@media screen and (max-width: 950px) {
 
-    /*                                   HEADER                                          */
-    
-    
+@media screen and (min-width: 760px){
+    .HeaderMainIzq-title h1 {
+        font-size: 50px;
+    }
+
+
+}
+
+@media screen and (min-width: 900px) {
+
     .HeaderMainDer {
         align-items: center;
     }
-
-    
 }
 
+@media screen and (max-width: 950px) {
+    .BackgroundColorLinkCamada {
+        background-color: #0c8346;
+        margin-top: 10px;
+    }
+}
 
+@media screen and (max-width: 450px) {
+    .BackgroundColorLinkCamada {
+        background-color: #0c8346;
+        margin-top: 8%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+
+    .HeaderMainIzq-title h1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 60px;
+    }
+    
+}
 
 /*                                                          Tablets     
 ===================================================================================================================================================================
 ===================================================================================================================================================================*/
 
-@media screen and (min-width: 760px) {
-    .HeaderMainIzq-title h1{
-        font-size: 50px;
-    }
-}
 
-@media screen and (min-width: 900px) {
-    .HeaderMainIzq-title h1 {
-        font-family: 'Roboto', sans-serif;
-        font-size: 60px;
-    }
-}
+
 
 @media screen and (min-width: 1000px) {
-    .MainContainer-img {
-        padding: 2% 5%;
+
+    .HeaderMainIzq-title h1 {
+        font-size: 65px;
     }
 
-    .HeaderMainIzq-title h1{
-        font-size: 40px;
-    }
+
 }
 
 @media screen and (min-width: 1200px) {
-    .MainContainer-img {
-        padding: 2% 14%;
-    }
-}
-
-/*                                                          Computadoras     
-===================================================================================================================================================================
-===================================================================================================================================================================*/
-
-@media screen and (min-width: 1400px) {
-    .HeaderMainIzq-title h1{
+    .HeaderMainIzq-title h1 {
         font-size: 50px;
-    }
-
-    .MainContainer-txt {
-        max-width: 90%;
-    }
-
-    .MainContainer-img {
-        padding: 2% 10%;
-    }
-    
-      .MainContainer-txt {
-        max-width: 82%;
     }
 }

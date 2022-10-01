@@ -66,6 +66,85 @@ $font-header: 'Roboto', sans-serif;
     }
 }
 
+@media screen and (min-width: 760px) {
+    .HeaderMain{
+        .HeaderMainIzq {
+            .HeaderMainIzq-title {
+                h1 {
+                    font-family: $font-header;
+                    font-size: 50px;
+                }
+            }          
+        }
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .HeaderMain{
+        .HeaderMainIzq {
+            .HeaderMainIzq-title {
+                h1 {
+                    font-family: $font-header;
+                    font-size: 60px;
+                }
+            }          
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .HeaderMain{
+        .HeaderMainIzq {
+            .HeaderMainIzq-title {
+                h1 {
+                    font-family: $font-header;
+                    font-size: 40px;
+                }
+            }          
+        }
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .HeaderMain{
+        .HeaderMainIzq {
+            .HeaderMainIzq-title {
+                h1 {
+                    font-family: $font-header;
+                    font-size: 50px;
+                }
+            }          
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .HeaderMain{
+        .HeaderMainIzq {
+            .HeaderMainIzq-title {
+                h1 {
+                    font-family: $font-header;
+                    font-size: 35px;
+                }
+            }          
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .HeaderMain{
+        .HeaderMainIzq {
+            .HeaderMainIzq-title {
+                h1 {
+                    font-family: $font-header;
+                    font-size: 30px;
+                }
+            }          
+        }
+    }
+}
+
+
 /*******************************MENU***********************************************************/
 .Menu {
     display: flex;
@@ -139,6 +218,7 @@ $font-header: 'Roboto', sans-serif;
             padding-bottom: 10px;
             border-radius: 12px;
             box-shadow: 5px 6px 8px #063a1f;
+            
             h2 {
                 margin-top: 20px;
                 margin-bottom: 15px;
@@ -157,6 +237,7 @@ $font-header: 'Roboto', sans-serif;
         }
     }
 }
+
 /***************************************    MAIN MACHOS-HEMBRAS*****************************************/
 .MainCatalogo {
     display: flex;
@@ -167,7 +248,8 @@ $font-header: 'Roboto', sans-serif;
         padding-bottom: 25px;
         justify-content: center;
         padding-top: 25px;
-        margin-top: 15px; 
+        margin-top: 15px;
+        border: 3px solid $font-color; 
         .ContenedorHijo {
             width: fit-content;
             margin-bottom: 25px;
@@ -193,6 +275,32 @@ $font-header: 'Roboto', sans-serif;
                     font-size: 18px;
                     font-weight: 700;
                     transition: all .3s;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .MainCatalogo {
+        .ContenedorPadre {
+            .ContenedorHijo {
+                img {
+                    width: 346.8px;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .MainCatalogo {
+        .ContenedorPadre {
+            .ContenedorHijo {
+                img {
+                    width: 300px;
+                    height: auto;
                 }
             }
         }
@@ -281,6 +389,39 @@ $font-header: 'Roboto', sans-serif;
 
     }
 }
+
+@media screen and (max-width: 850px) {
+    .MainCamada {
+        .ContenedorPadreCamada {
+            .ContenedorHijoCamada {
+                .ContenedorHijoCamada-Padres {
+                    .BackgroundColorContainer {
+                        .BackgroundColorLinkCamada {
+                            margin-top: 3%;
+                        }
+                    }
+                }
+            }
+    
+        }
+    }
+}
+@media screen and (max-width: 450px) {
+    .MainCamada {
+        .ContenedorPadreCamada {
+            .ContenedorHijoCamada {
+                .ContenedorHijoCamada-Padres {
+                    .BackgroundColorContainer {
+                        .BackgroundColorLinkCamada {
+                            margin-top: 18%;
+                        }
+                    }
+                }
+            }
+    
+        }
+    }
+}
 /************************************************   Contacto*********************************************/
 .logo {
     text-align: center;
@@ -361,6 +502,16 @@ $font-header: 'Roboto', sans-serif;
             padding-top: 5px;
             padding-bottom: 10px;
             width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .ContainerContacto {
+        .Contact-info {
+            margin-top: 2%;
+            width: 96%;
+            margin-left: 2%;
         }
     }
 }
@@ -541,6 +692,7 @@ $font-header: 'Roboto', sans-serif;
 }
 
 /*************************************** FOOTER************************************************/
+
 .footerContainer {
     margin-top: 2%;
     display: grid;
