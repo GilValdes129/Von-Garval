@@ -698,21 +698,21 @@ $font-header: 'Roboto', sans-serif;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     h3 {
-        background-color: #df2935;
+        background-color: $red-color;
         padding-bottom: 1%;
     }
     p {
         display: block;
-        background-color: #df2935;
+        background-color: $red-color;
     }
     .footermail {
-        background-color: #df2935;
+        background-color: $red-color;
         padding-left: 6%;
     }
     .footerlink {
-        background-color: #df2935;
+        background-color: $red-color;
         a, i {
-            background-color: #df2935; 
+            background-color: $red-color; 
         }
     }
 }
