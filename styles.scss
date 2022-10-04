@@ -374,7 +374,7 @@ $font-header: 'Roboto', sans-serif;
                             color: $font-color;
                             width: 100%;
                         }
-                        a:hover{
+                        &:hover{
                             font-size: 25px;
                             font-weight: 800;
                             transition: all .3s;
