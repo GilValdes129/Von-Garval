@@ -237,34 +237,25 @@
           background-color: #0c8346; }
           .MainCamada .ContenedorPadreCamada .ContenedorHijoCamada .ContenedorHijoCamada-Padres .BackgroundColorContainer .ContenedorHijoCamada-Padre {
             background-color: #0c8346; }
-            .MainCamada .ContenedorPadreCamada .ContenedorHijoCamada .ContenedorHijoCamada-Padres .BackgroundColorContainer .ContenedorHijoCamada-Padre img {
+            .MainCamada .ContenedorPadreCamada .ContenedorHijoCamada .ContenedorHijoCamada-Padres .BackgroundColorContainer .ContenedorHijoCamada-Padre .ImagenPadre, .MainCamada .ContenedorPadreCamada .ContenedorHijoCamada .ContenedorHijoCamada-Padres .BackgroundColorContainer .ContenedorHijoCamada-Padre .ContenedorHijoCamada-Madre img, .MainCamada .ContenedorPadreCamada .ContenedorHijoCamada .ContenedorHijoCamada-Padres .BackgroundColorContainer .ContenedorHijoCamada-Madre .ContenedorHijoCamada-Padre img {
               width: 100%;
               height: 90%; }
-            .MainCamada .ContenedorPadreCamada .ContenedorHijoCamada .ContenedorHijoCamada-Padres .BackgroundColorContainer .ContenedorHijoCamada-Padre a {
+            .MainCamada .ContenedorPadreCamada .ContenedorHijoCamada .ContenedorHijoCamada-Padres .BackgroundColorContainer .ContenedorHijoCamada-Padre .NombrePadre {
               font-weight: 100;
               text-align: center;
               background-color: #063a1f;
               color: #fcfffc;
               width: 100%; }
-            .MainCamada .ContenedorPadreCamada .ContenedorHijoCamada .ContenedorHijoCamada-Padres .BackgroundColorContainer .ContenedorHijoCamada-Padre a:hover {
+            .MainCamada .ContenedorPadreCamada .ContenedorHijoCamada .ContenedorHijoCamada-Padres .BackgroundColorContainer .ContenedorHijoCamada-Padre:hover {
               font-size: 25px;
               font-weight: 800;
               transition: all .3s; }
-          .MainCamada .ContenedorPadreCamada .ContenedorHijoCamada .ContenedorHijoCamada-Padres .BackgroundColorContainer .ContenedorHijoCamada-Madre {
-            background-color: #0c8346; }
-            .MainCamada .ContenedorPadreCamada .ContenedorHijoCamada .ContenedorHijoCamada-Padres .BackgroundColorContainer .ContenedorHijoCamada-Madre img {
-              width: 100%;
-              height: 90%; }
-            .MainCamada .ContenedorPadreCamada .ContenedorHijoCamada .ContenedorHijoCamada-Padres .BackgroundColorContainer .ContenedorHijoCamada-Madre a {
-              font-weight: 100;
-              text-align: center;
-              background-color: #df2935;
-              color: #fcfffc;
-              width: 100%; }
-            .MainCamada .ContenedorPadreCamada .ContenedorHijoCamada .ContenedorHijoCamada-Padres .BackgroundColorContainer .ContenedorHijoCamada-Madre a:hover {
-              font-size: 25px;
-              font-weight: 800;
-              transition: all .3s; }
+          .MainCamada .ContenedorPadreCamada .ContenedorHijoCamada .ContenedorHijoCamada-Padres .BackgroundColorContainer .ContenedorHijoCamada-Madre a {
+            font-weight: 100;
+            text-align: center;
+            background-color: #df2935;
+            color: #fcfffc;
+            width: 100%; }
           .MainCamada .ContenedorPadreCamada .ContenedorHijoCamada .ContenedorHijoCamada-Padres .BackgroundColorContainer .BackgroundColorLinkCamada {
             background-color: #0c8346; }
 

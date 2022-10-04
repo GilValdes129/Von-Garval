@@ -6,7 +6,9 @@ $golden-color: #f3b700;
 $font-family: 'Oswald', sans-serif;
 $font-header: 'Roboto', sans-serif;
 
-
+@mixin transition {
+    transition: all .3s;
+}
 
 * {
     margin: 0;
@@ -174,7 +176,7 @@ $font-header: 'Roboto', sans-serif;
             }
             a:hover {
                 color: $golden-color;
-                transition: all .3s;
+                @include transition();
                 background-color: $red-color;
                 border-radius: 10px;
                 box-shadow: 5px 6px 8px #063a1f;
@@ -274,7 +276,7 @@ $font-header: 'Roboto', sans-serif;
                     color: $golden-color;
                     font-size: 18px;
                     font-weight: 700;
-                    transition: all .3s;
+                    @include transition();
                 }
             }
         }
@@ -334,7 +336,7 @@ $font-header: 'Roboto', sans-serif;
             a:hover{
                 font-size: 25px;
                 font-weight: 800;
-                transition: all .3s;
+                @include transition();
             }
             .ContenedorHijoCamada-Padres {
                 gap: 5px;
@@ -344,40 +346,33 @@ $font-header: 'Roboto', sans-serif;
                     background-color: $background-content;
                     .ContenedorHijoCamada-Padre {
                         background-color: $background-content;
-                        img{
+                        .ImagenPadre{
                             width: 100%;
                             height: 90%;
                         }
-                        a{
+                        .NombrePadre{
                             font-weight: 100;
                             text-align: center;
                             background-color: #063a1f;
                             color: $font-color;
                             width: 100%;
                         }
-                        a:hover{
+                        &:hover{
                             font-size: 25px;
                             font-weight: 800;
-                            transition: all .3s;
+                            @include transition();
                         }
                     }
-                    .ContenedorHijoCamada-Madre {
-                        background-color: $background-content;
-                        img{
-                            width: 100%;
-                            height: 90%;
-                        }
+                    .ContenedorHijoCamada-Madre { 
+                        img {
+                            @extend .ImagenPadre;
+                        }                   
                         a {
                             font-weight: 100;
                             text-align: center;
                             background-color: $red-color;
                             color: $font-color;
                             width: 100%;
-                        }
-                        &:hover{
-                            font-size: 25px;
-                            font-weight: 800;
-                            transition: all .3s;
                         }
                     }
                     .BackgroundColorLinkCamada {
@@ -466,7 +461,7 @@ $font-header: 'Roboto', sans-serif;
                     font-size: 23px;
                     font-weight: 700;
                     padding: 5px;
-                    transition: all .3s;
+                    @include transition();
                     cursor: pointer;
             }
         }
@@ -643,7 +638,7 @@ $font-header: 'Roboto', sans-serif;
         a:hover{
             font-size: 25px;
             font-weight: 800;
-            transition: all .3s;
+            @include transition();
         }
         .ContenedorHijoCamada-Padres {
             gap: 5px;
